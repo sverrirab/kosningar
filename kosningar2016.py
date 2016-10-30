@@ -49,11 +49,17 @@ def seen_one_less(unique, possibility):
     :param possibility: The new combination to check (in normalized form)
     :return: True if this 'possibility' has been seen with one party removed
     """
-    all_one_less = [x for x in itertools.combinations(possibility, len(possibility) - 1)]
-    for a in all_one_less:
+    all_lesser = []
+    for i in range(1, len(possibility)):
+        all_lesser.extend([x for x in itertools.combinations(possibility, i)])
+    #print possibility, "all_lesser:", all_lesser
+
+    for a in all_lesser:
         if normalize(a) in unique:
+            #print "found one:", normalize(a)
             return True
     return False
+
 
 
 def all_possibilities():
@@ -62,12 +68,13 @@ def all_possibilities():
     :return: set of possibilities.
     """
     unique = set()
+    checked = set()
     for num in range(1, len(RESULTS)):
         count, possibilities = get_possibilities(num)
         # Remove options already in the list with one party removed.
         new = set()
         for possibility in possibilities:
-            if not seen_one_less(unique, possibility):
+            if not seen_one_less(unique, possibility) or possibility in checked:
                 new.add(possibility)
                 unique.add(possibility)
         if len(new) > 0:

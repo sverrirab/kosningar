@@ -1,3 +1,5 @@
+With 3 parties -  13 out of 35 have majority
+Of those there are 13 new options:
 A, , , D, , , V, 35, 3
 , , , D, P, , V, 41, 3
 A, B, , D, , , , 33, 3
@@ -11,22 +13,14 @@ A, , C, D, , , , 32, 3
 , B, , D, P, , , 39, 3
 , B, , D, , S, , 32, 3
 , , , D, P, S, , 34, 3
+
+With 4 parties -  22 out of 35 have majority
+Of those there are 2 new options:
 A, B, , , P, , V, 32, 4
 , B, C, , P, , V, 35, 4
-, B, , D, P, S, V, 52, 5
-A, B, , D, , S, V, 46, 5
-A, , C, D, P, S, , 45, 5
-, B, C, D, P, S, , 49, 5
-A, B, C, , P, S, , 32, 5
-A, , C, D, P, , V, 52, 5
-A, B, C, , , S, V, 32, 5
-A, , , D, P, S, V, 48, 5
-A, , C, D, , S, V, 45, 5
-, , C, D, P, S, V, 51, 5
-A, B, C, D, P, , , 50, 5
-A, B, , D, P, S, , 46, 5
-A, B, C, D, , S, , 43, 5
-A, B, C, D, , , V, 50, 5
-A, , C, , P, S, V, 34, 5
-, B, C, D, , S, V, 49, 5
 
+With 5 parties -  21 out of 21 have majority
+Of those there are 3 new options:
+A, B, C, , , S, V, 32, 5
+A, , C, , P, S, V, 34, 5
+A, B, C, , P, S, , 32, 5
