@@ -1,0 +1,44 @@
+('With', 3, 'parties - ', 4, 'out of', 56, 'have majority')
+('Of those there are', 4, 'new options:')
+, , D, , , , S, V, 34, 3
+, , D, , , P, , V, 33, 3
+B, , D, , , , , V, 35, 3
+, , D, , M, , , V, 34, 3
+
+('With', 4, 'parties - ', 35, 'out of', 70, 'have majority')
+('Of those there are', 21, 'new options:')
+B, , , , , P, S, V, 32, 4
+B, C, D, F, , , , , 32, 4
+B, , , , M, , S, V, 33, 4
+B, , D, , M, , S, , 38, 4
+B, , , , M, P, , V, 32, 4
+B, C, D, , M, , , , 35, 4
+B, , D, F, M, , , , 35, 4
+, C, D, , M, P, , , 33, 4
+, C, D, , M, , S, , 34, 4
+B, , D, , M, P, , , 37, 4
+, , D, F, M, P, , , 33, 4
+, , D, , M, P, S, , 36, 4
+, C, D, F, , , , V, 35, 4
+, C, D, , , P, S, , 33, 4
+, , D, F, M, , S, , 34, 4
+B, , D, F, , P, , , 34, 4
+B, C, D, , , P, , , 34, 4
+B, C, D, , , , S, , 35, 4
+B, , D, F, , , S, , 35, 4
+, , D, F, , P, S, , 33, 4
+B, , D, , , P, S, , 37, 4
+
+('With', 5, 'parties - ', 52, 'out of', 56, 'have majority')
+('Of those there are', 10, 'new options:')
+, C, , F, M, P, , V, 32, 5
+, C, , , M, P, S, V, 35, 5
+, C, , F, M, , S, V, 33, 5
+B, C, , F, , , S, V, 34, 5
+, , , F, M, P, S, V, 35, 5
+B, C, , F, M, , , V, 34, 5
+B, C, , F, , P, , V, 33, 5
+B, , , F, M, P, S, , 32, 5
+B, C, , , M, P, S, , 32, 5
+, C, , F, , P, S, V, 32, 5
+
